@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Personal website"
-    />
-    
-    <title>Okeer homepage</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <header>Just a small test</header>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sergei Orlov online business card with links to GitHub and Linkedin profiles" />
+
+  <link type="text/plain" rel="author" href="./humans.txt" />
+
+  <link href="https://fonts.googleapis.com/css1?family=Roboto&display=swap" rel="stylesheet">
+  <link href="./assets/css/layout.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+  <title>Sergei Orlov website</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this website.</noscript>
+
+  <header>Hi</header>
+
+  <main>
+    <article>
+      My name is Sergei and I'm a DevOps Engineer. Nice to meet you.
+    </article>
+
+    <nav>
+      <a href="https://www.linkedin.com/in/okeer/" title="My Linkedin profile"><img class="icon"
+          src="./assets/icons/in.svg" /></a>
+      <a href="https://github.com/okeer" title="My GitHub profile"><img class="icon" src="./assets/icons/gh.svg" /></a>
+      <a id="contact" title="Contact me"><img class="icon" src="./assets/icons/em.svg" /></a>
+    </nav>
+  </main>
+
+  <footer>2019 Sergei 'okeer' Orlov</footer>
+
+</body>
+
+<script>
+  let a = document.getElementById("contact");
+  a.href = `mailto:contact@${document.domain}`;
+</script>
+
 </html>
