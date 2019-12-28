@@ -38,3 +38,7 @@ footer {
 footer, header {
   padding: 2vh;
 }
+
+*:focus {
+  outline: none;
+}
