@@ -10,7 +10,6 @@ body {
 
   margin: 0;
   min-height: 100vh;
-  
   background-color: black;
   color: whitesmoke;
 }
@@ -37,6 +36,11 @@ footer {
 
 footer, header {
   padding: 2vh;
+}
+
+footer .icon {
+  width: 25vh;
+  height: 25vh;
 }
 
 *:focus {
